@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    azure:
+      active-directory:
+        enabled:
+        credential:
+          client-id:
+          client-secret:
+        profile:
+          tenant-id:
+  profiles:
+    active: develop
